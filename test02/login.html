@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 500px;
+            border: 1px solid black;
+        }
+
+        .login {
+            background-color: darkgreen;
+            margin: 10px 20px;
+            position: relative;
+            height: 300px;
+        }
+
+        #welcom {
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .inputlog {
+            text-align: center;
+        }
+
+        .loginbutt {
+            background-color: forestgreen;
+            align-content: center;
+            color: white;
+
+        }
+
+        #butttext {
+            color: white;
+        }
+
+        #inputid {
+            border: 1px solid rgb(110, 125, 110);
+        }
+
+        #inputpass {
+            border: 1px solid rgb(110, 125, 110);
+        }
+
+        input {
+            background-color: transparent;
+        }
+
+        button {
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="main.html">
+        <div class="container">
+            <div class="login">
+                <div id="welcom">
+                    <p>Welcome Back!</p>
+                </div>
+                <div class="inputlog">
+                    <div>
+                        <input id="inputid" placeholder="Email addres*" type="email">
+                    </div>
+                    <div>
+                        <input id="inputpass" placeholder="Password*" type="password">
+                    </div>
+                </div>
+                <div>
+                    <button type="submit" class="loginbutt">
+                        LOG IN
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
