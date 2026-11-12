@@ -14,32 +14,37 @@
 
         .container {
             margin: 0 auto;
+            display: flex;
             width: 500px;
+            height: 500px;
             border: 1px solid black;
+            align-items: center;
+            justify-items: center;
         }
 
         .login {
             background-color: darkgreen;
-            margin: 10px 20px;
-            position: relative;
-            height: 300px;
+            display: flex;
+            flex-direction: column;
+            height: 90%;
+            width: 90%;
+            text-align: center;
+            margin: auto;
+            justify-content: space-around;
         }
 
         #welcom {
             color: white;
             font-size: 30px;
-            text-align: center;
         }
 
         .inputlog {
-            text-align: center;
+            background-color: transparent;
         }
 
         .loginbutt {
             background-color: forestgreen;
-            align-content: center;
             color: white;
-
         }
 
         #butttext {
@@ -47,19 +52,27 @@
         }
 
         #inputid {
+            width: 400px;
+            height: 40px;
             border: 1px solid rgb(110, 125, 110);
+            padding: 10px 60px 10px 10px;
+            background-color: transparent;
         }
 
         #inputpass {
+            width: 400px;
+            height: 40px;
             border: 1px solid rgb(110, 125, 110);
+            padding: 10px 60px 10px 10px;
+            background-color: transparent;
+            margin: 10px;
         }
 
-        input {
-            background-color: transparent;
-        }
 
         button {
-            background-color: transparent;
+            width: 400px;
+            height: 50px;
+            border: none;
         }
     </style>
 </head>
